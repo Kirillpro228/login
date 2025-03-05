@@ -1,0 +1,45 @@
+/* Увеличение размера всего интерфейса */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px; /* Увеличение основного размера шрифта */
+}
+
+/* Увеличенные поля ввода */
+input {
+    font-size: 18px;
+    padding: 12px;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Увеличенные кнопки */
+.btn-new {
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background: #0B63F6;
+    box-shadow: 0 5px 0 #003CC5;
+    padding: 15px 25px; /* Увеличенный размер кнопки */
+    font-size: 20px; /* Увеличенный шрифт */
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-new:hover {
+    background: #003CC5;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+
+/* Увеличение заголовков */
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
